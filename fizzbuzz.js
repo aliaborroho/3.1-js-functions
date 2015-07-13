@@ -10,12 +10,31 @@ function arrayEquals(arr1, arr2) {
 /**
  * PART 0
  *
- * Write a function that takes two numbers as
- * arguments and computes the sum of those two numbers.
+  Write a function that takes two numbers as* arguments and computes the sum of those two numbers.
  */
 
+function denominators (num) {
+	var denoms = [];
+
+for (var x = 1; x <= num; x++){
+	if (num % x === 0 ) {
+		return denoms
+}
+
+
+if (num==1){
+	return [1];
+}	return[ 1,num]; // body...
+ return denoms
+}
+console.assert(arrayEquals(denominators(1), [1]));
+console.assert(arrayEquals(denominators(2), [1, 2]));
+console.assert(arrayEquals(denominators(3), [1, 3]));
+console.assert(arrayEquals(denominators(4), {1, 2, 4}
+console.assert(arrayEquals(denominators(24), {1, 2, 3, 4,6, 24]));
+
 function sum(a, b){
-    // YOUR CODE HERE
+   return a+b
 }
 
 console.assert(sum(8, 11) === 19);
@@ -28,9 +47,9 @@ console.assert(sum(4, 100) === 104);
  */
 
 function sumOfArray(arr){
-    var sum = 0
+    var sum = 0;
     // YOUR CODE HERE
-    return sum
+    return sum;
 }
 
 console.assert(sumOfArray([1, 2]) === 3);
@@ -44,11 +63,22 @@ console.assert(sumOfArray([10, 9, 8]) === 27);
  * write a function that finds the Greatest Common Denominator of two numbers
  * - if no GCD exists, return 1
  *
- * You should use the denominators function from today's class
+ * //a= 5
+  b=1
+  aDenoms [ 1, 5]
+  bDenoms= [1]
+ You should use the denominators function from today's class
  */
 
 function GCD(a, b){
-    // YOUR CODE HERE
+    var a denoms= denominators(a);
+    var b denoms= denominators(b);
+    var ret = 1;
+    loop
+    if (bDenoms.indexOf ( )
+    	)) {} else{};
+    if
+
 }
 
 console.assert(GCD(5,1) === 1);
